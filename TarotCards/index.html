@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <bgsound src="/music/mus.mp3" loop="-1" balance="10" volume="100">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Игра</title>
+</head>
+<body>
+    <embed src="/music/mus.mp3" autostart="true" hidden="true" loop="true"> </embed>
+    <audio controls>
+        <source src = "/music/mus.mp3" type = "audio/mpeg" >
+    </audio>
+   
+    <div class="wrapper">
+        <div class="header">
+            <div class="header__inner">
+                <img src="/img/IMG_5632.PNG" alt="logo" class="logo">
+                <a href="#main" class="header__btn">Вперёд</a>
+            </div>
+        </div>
+        <main class="main">
+            <div class="main__wrapper" id="main">
+                <div class="container">
+                    <div class="main__inner" >
+                    <div class="logo__main-box">
+                        <img src="/img/IMG_5632.PNG" alt="logo" class="logo__main">
+                    </div>
+                    <div class="main__info">
+                        <div class="main__hello">
+                            <div class="main__hello-icon">
+                                <img src="/img/IMG_5640.PNG" alt="" class="main__icon-img">
+                            </div>
+                            <div class="main__hello-title">Здравствуйте</div>
+                            <p class="main__hello-desc">Добро пожаловать на наш сайт, где вы можете получить  уникальный расклад Таро <br> <br>Откройте двери к тайнам и загадкам вашего будущего с помощью наших алгоритмов <br> <br>✨ Дерзайте взглянуть вглубь себя и мира, и откройте новые горизонты с помощью Таро! ✨</p>
+                        </div>
+                        <div class="main__circles">
+                            <div class="main__circles1">
+                                <div class="main__circles1-title">карта дня</div>
+                                <a href="#dayCard" class="main__circles1-btn">Вперёд</a>
+                            </div>
+                            <div class="main__circles2">
+                                <div class="main__circles2-title">Расклад</div>
+                                <ul class="main__circles2-list">
+                                    <li class="main__circles2-item">
+                                        1. <a href="#" class="main__circles2-link">Кельтский крест</a>
+                                    </li>
+                                    <li class="main__circles2-item">
+                                        2. <a href="#" class="main__circles2-link">Картина года</a>
+                                    </li>
+                                    <li class="main__circles2-item">
+                                        3. <a href="#" class="main__circles2-link">Карьера</a>
+                                    </li>
+                                </ul>
+                                <div class="main__circles2-box">
+                                    <img src="/img/IMG_5638.PNG" alt="decor" class="main__circles2-decor">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="dayCard" id="dayCard">
+                 <div class="container">
+                    <div class="logo__dayCard-box">
+                        <img src="/img/IMG_5632.PNG" alt="logo" class="logo__main">
+                    </div>
+                    <div class="dayCard__inner">
+                        <div class="dayCard__info">
+                            <div class="dayCard__info-title">#КартаДня</div>
+                            <p class="dayCard__info-desc">Башня говорит о том, что в вашей жизни произошли или скоро будут очень сильные перемены. Скорее всего, эти самые перемены будут неожиданными, не всегда желанными. Может произойти либо взлёт, либо падение. Человек может с кем-нибудь поссориться, кого-то сильно возненавидеть, впасть в агрессию, оборвать связи, впутаться в какой-нибудь криминал. Жизнь очень круто поменяется, произойдет встряска. Чаще всего люди, которые переживают такой период разрушения, начинают задавать вопрос - за что им всё это, и ждут ответа, однако не дождутся, потому что вопрос в корне неверный. Надо спрашивать - для чего было дано это потрясение. На карте изображено разрушение, молнии бьют со всех сторон. Вмешаются высшие силы, к вам придет озарение.'</p>
+                        </div>
+                        <div class="dayCard-image">
+                            <img src="/img/card1.PNG" alt="" class="card_img">
+                        </div>
+                    </div>
+                    <div class="dayCard__btn-box">
+                        <a href="javascript:void(0)" class="dayCard__btn" >новая</a>
+                    </div>
+                    <a href="#main" class="dayCard__back">
+                        <img src="/img/arrow.PNG" alt="" class="dayCard-arrow">
+                        <p class="dayCard__back-head">назад</p>
+                    </a>
+                 </div>
+            </div>
+            
+        </main>
+    </div>
+</body>
+    <script src="/js/main.js"></script>
+</html>
