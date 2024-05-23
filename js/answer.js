@@ -11,11 +11,11 @@ document.querySelector('.answer__btn').addEventListener('click', showRandomAnswe
             switch (randomNumber) {
                 case 1:
                     cardImg.src = "/img2/YES.PNG";
-                    cardDesc.textContent = 'Да';
+                    
                     break;
                 case 2:
                     cardImg.src = '/img2/NO.PNG';
-                    cardDesc.textContent = 'Нет';
+                
                     break;
 
 
