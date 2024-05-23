@@ -18,11 +18,11 @@
     background-position: center;
     width: 100%;
     height: 100vh; 
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 }
-.header__inner{
+.header__inner{ 
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -32,10 +32,13 @@
     height: 379px;
 }
 .header__btn {
+    position: absolute;
     border-radius: 15px;
     padding: 0px 32px;
-    width: 152px;
-    height: 41px;
+    /*width: 152px;*/
+    width: 10%;
+    /*height: 41px; */
+    height: 6%;
     background: #fff;
     font-weight: 700;
     font-size: 20px;
@@ -47,10 +50,13 @@
     align-items: center;
     justify-content: center;
     transition: all 0.3s;
+    bottom: 15%;
 }
 .header__btn:hover{
     transform: scale(1.05)
 }
+
+
 
 /* ---------------------------------------------------------------------------- */
 /* ----------------------------------main-------------------------------------- */
@@ -59,14 +65,19 @@
     background-image: url('/img/IMG_5555-1.PNG'); 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
+    position: fixed;
+    max-width: 1920px; 
+
 }
 .main__inner {
 }
 .logo__main-box {
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 2%;
 }
 .logo__main {
     width: 220px;
@@ -85,6 +96,9 @@
     align-items: center;
     flex-direction: column;
     padding: 45px 70px 55px;
+    width: 30%;
+    translate: 10%;
+    
 }
 .main__hello-icon {
 }
@@ -94,7 +108,7 @@
 }
 .main__hello-title {
     font-weight: 700;
-    font-size: 27px;
+    font-size: 2vw;
     line-height: 1.62963;
     letter-spacing: 0.02em;
     text-transform: uppercase;
@@ -104,7 +118,7 @@
 }
 .main__hello-desc {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1vw;
     line-height: 1.5;
     letter-spacing: 0.01em;
     text-align: center;
@@ -113,23 +127,26 @@
 }
 .main__circles {
     display: flex;
-    position: relative;
+    position: center;
+    width: auto;
+    height: auto;
 }
 .main__circles1 {
     border-radius: 100%;
     background: #fff;
     box-shadow: -12px 4px 31px 0 rgba(0, 0, 0, 0.25);
-    width: 524px;
-    height: 527px;
+    width: 25%;
+    height: 40%;
     display: flex;
-    align-items: center;
+    margin-bottom: 2%;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     align-content: flex-start;
     position: absolute;
-    right: 320px;
-    bottom: -480px;
+    z-index: 1;
+    right: 30%;
+    bottom: 0.125%;
     padding: 0 0 0 121px;
 }
 .main__circles1-title {
@@ -138,7 +155,7 @@
     line-height: 1.25714;
     letter-spacing: 0.01em;
     text-transform: uppercase;
-    text-align: center;
+    translate: -19.5%;
     color: #000;
     margin-bottom: 22px;
 }
@@ -175,8 +192,8 @@
     align-content: flex-start;
     justify-content: center;
     position: absolute;
-    right: -330px;
-    top: -370px;
+    right: -200px;
+    bottom: -150px;
 }
 .main__circles2-title {
     font-weight: 700;
@@ -206,6 +223,8 @@
 .main__circles2-decor {
     width: 350px;
     height: 285px;
+
+
 }
 
 
@@ -216,11 +235,10 @@
 .dayCard {
     background-image: url('/img/IMG_5555.PNG'); 
     background-size: cover;
-    background-position: center;
+    background-position: absolute;
     width: 100%;
     height: 100vh; 
-    position: relative;
-    z-index: 10;
+    position: fixed;
 }
 .logo__dayCard-box {
     text-align: center;
@@ -234,16 +252,20 @@
     margin-top: 70px;
 }
 .dayCard__info {
-
-    width: auto;
     border-radius: 100px;
     background: #fff;
     box-shadow: -10px 4px 25px 0 rgba(0, 0, 0, 0.25);
-    margin-right: 250px;
+    margin-right: 35%;
+    max-width: 35%;
+    max-height: 20%;
+    left: -15%;
+    position: relative;
+    bottom: 50px;
+    width: auto;
 }
 .dayCard__info-title {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 2.2vw;
     line-height: 1.76;
     letter-spacing: 0.02em;
     text-transform: uppercase;
@@ -253,24 +275,33 @@
 }
 .dayCard__info-desc {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1vw;
     line-height: 1.5;
     letter-spacing: 0.01em;
     text-align: center;
     color: #4d5053;
-    max-width: 320px;
+    max-width: auto;
     padding: 30px 40px 50px;
 }
 .dayCard-image {
 }
 .card_img {
-    width: 350px;
-    height: 460px;
+    width: 25%;
+    height: 62%;
+    right: 13%;
+    bottom: 10%;
+    position: absolute;
+    margin-left: 50%;
 }
 .dayCard__btn-box{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    bottom: 6%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
 .dayCard__btn{
     font-weight: 700;
@@ -299,6 +330,10 @@
     align-content: flex-end;
     flex-wrap: wrap;
     margin-top: 20px;
+    position: absolute;
+    z-index: 10;
+    bottom: 2%;
+    right: 3%;
 }
 .dayCard-arrow{
     width: 30px;
@@ -314,70 +349,49 @@
     line-height: 1.5;
     letter-spacing: 0.01em;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 }
 
 /* ---------------------------------------------------------------------------- */
 /* ----------------------------------answer----------------------------------- */
 /* ---------------------------------------------------------------------------- */
 
-.answer {
-    background-image: url('/img/IMG_5555.PNG'); 
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh; 
-    position: relative;
-    z-index: 10;
-}
-.logo__answer-box {
-    text-align: center;
-}
-.logo__main {
-}
-.answer__inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
-}
-.answer__info {
-
+.answer_box {
     border-radius: 100px;
     background: #fff;
     box-shadow: -10px 4px 25px 0 rgba(0, 0, 0, 0.25);
-    margin-right: 200px;
+    height: 27px;
+    text-align: left;
+    top: 3%;
+    position: relative;
 }
-.answer__info-title {
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 1.76;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    text-align: center;
-    color: #000;
-    padding-top: 50px;
-}
-.answer__info-desc {
+
+.answer_text {
+    position: relative;
+
+
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.5;
-    letter-spacing: 0.01em;
-    text-align: center;
     color: #4d5053;
-    max-width: 320px;
-    padding: 30px 40px 50px;
+    padding: 30px 10px 5px;
 }
-.answer-image {
+
+.answer_question{
+    color: #000;
+    width: 93%;
+
+    margin-top: 5px;
 }
-.card_img {
-    width: 350px;
-    height: 460px;
-}
+
 .answer__btn-box{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    bottom: 6%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
 .answer__btn{
     font-weight: 700;
@@ -399,27 +413,57 @@
 .answer__btn:hover{
     transform: scale(1.05);
 }
-.answer__back {
+.answer__inner
+ {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    align-content: flex-end;
-    flex-wrap: wrap;
-    margin-top: 20px;
+    justify-content: center;
+    margin-top: 70px;
+    
+    margin-top: 12vw;
+
 }
-.answer-arrow{
-    width: 30px;
-    height: 30px;
-    transition: all 0.3s;
+.answer__info {
+    border-radius: 100px;
+    background: #fff;
+    box-shadow: -10px 4px 25px 0 rgba(0, 0, 0, 0.25);
+    margin-right: 35%;
+    max-width: 35%;
+    max-height: 20%;
+    left: -15%;
+    position: relative;
+    bottom: 50px;
+    width: auto;
+    min-width: 20%;
 }
-.answer-arrow:hover{
-    transform: scale(1.05);
+.answer__info-title {
+    font-weight: 700;
+    font-size: 2.2vw;
+    line-height: 1.76;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    padding-top: 50px;
 }
-.answer__back-head {
+.answer__info-desc {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 1vw;
     line-height: 1.5;
     letter-spacing: 0.01em;
     text-align: center;
-    color: #fff;
+    color: #4d5053;
+    max-width: auto;
+    padding: 30px 40px 50px;
+}
+.answer-image {
+}
+.card2_img {
+    width: 22%;
+    height: 62%;
+    right: 13%;
+    bottom: 5%;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -100px;
 }
