@@ -95,9 +95,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 45px 70px 55px;
-    width: 30%;
-    translate: 10%;
+    padding: 35px 90px 35px;
+    width: 35%;
+    translate: 2%;
+    
     
 }
 .main__hello-icon {
@@ -107,7 +108,7 @@
     height: 72px;
 }
 .main__hello-title {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 2vw;
     line-height: 1.62963;
     letter-spacing: 0.02em;
@@ -117,13 +118,13 @@
     padding: 23px 0;
 }
 .main__hello-desc {
-    font-weight: 400;
-    font-size: 1vw;
-    line-height: 1.5;
+    font-weight: 500;
+    font-size: 1.3vw;
+    line-height: 1.2;
     letter-spacing: 0.01em;
     text-align: center;
     color: #4d5053;
-    max-width: 229px;
+    max-width: 300px;
 }
 .main__circles {
     display: flex;
@@ -147,7 +148,7 @@
     z-index: 1;
     right: 30%;
     bottom: 0.125%;
-    padding: 0 0 0 121px;
+    padding: 10px 20px 0 121px;
 }
 .main__circles1-title {
     font-weight: 700;
@@ -157,24 +158,28 @@
     text-transform: uppercase;
     translate: -19.5%;
     color: #000;
-    margin-bottom: 22px;
+    margin-bottom: 60px;
 }
 .main__circles1-btn {
+    position: absolute;
+    bottom: 60px;
+    left: 101px;
     font-weight: 700;
     font-size: 15px;
     line-height: 2.93333;
     letter-spacing: 0.03em;
     text-align: center;
     color: #fff;
-    border-radius: 15px;
-    padding: 0px 32px;
-    width: 125px;
-    height: 33px;
+    border-radius: 13px;
+    padding: 10px 32px;
+    width: 160px;
+    height: 45px;
     background: #6f44c8;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.3s;
+    
 }
 .main__circles1-btn:hover {
     transform: scale(1.05);
@@ -196,29 +201,43 @@
     bottom: -150px;
 }
 .main__circles2-title {
-    font-weight: 700;
-    font-size: 60px;
+    position: absolute;
+    font-weight: 550;
+    font-size: 70px;
     line-height: 0.73333;
     letter-spacing: 0.01em;
     text-transform: uppercase;
     text-align: center;
     color: #000;
     padding: 0 0 0 230px;
+    bottom: 570px;
+    left: -23px;
 }
 .main__circles2-list {
-    padding: 33px 0 17px 158px;
+    padding: 63px 0 17px 158px;
 }
 .main__circles2-item {
+    position: absolute;
     font-weight: 400;
-    font-size: 31px;
+    font-size: 2.7VW;
     line-height: 1.5;
     letter-spacing: 0.01em;
     color: #4d5053;
+    bottom: 480px;
+    left: 245px;
+    
+}
+.main__circles2-item:hover {
+    transform: scale(1.05);
 }
 .main__circles2-link {
 }
 .main__circles2-box{
     padding: 0 0 0 168px;
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+    
 }
 .main__circles2-decor {
     width: 350px;
