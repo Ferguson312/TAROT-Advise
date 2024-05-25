@@ -229,9 +229,12 @@
     font-size: 2.7VW;
     line-height: 1.5;
     letter-spacing: 0.01em;
-    color: #4d5053;
-    bottom: 480px;
-    left: 245px;
+    background: #6f44c8;
+    border-radius: 13px;
+    padding: 5px 22px;
+    color: #f3f3f3;
+    bottom: 460px;
+    left: 265px;
     
 }
 .main__circles2-item:hover {
