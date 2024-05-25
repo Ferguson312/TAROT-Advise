@@ -304,14 +304,14 @@
     padding-top: 50px;
 }
 .dayCard__info-desc {
-    font-weight: 400;
-    font-size: 1vw;
+    font-weight: 700;
+    font-size: 1.3vw;
     line-height: 1.5;
     letter-spacing: 0.01em;
     text-align: center;
     color: #4d5053;
     max-width: auto;
-    padding: 30px 40px 50px;
+    padding: 15px 30px 50px;
 }
 .dayCard-image {
 }
