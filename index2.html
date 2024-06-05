@@ -1,78 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <bgsound src="/music/mus.mp3" loop="-1" balance="10" volume="100">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
-    
     <title>TAROT Advice</title>
-  </head>
-
-
-  <main class="main">
-    <body class="body">
-    <audio loop autoplay>
-        <source src = "/music/mus.mp3" type = "audio/mpeg" autostart="true" hidden="true" loop="true" >
-    </audio>
-
+</head>
+<body class="body">
+<audio loop autoplay>
+    <source src="/music/mus.mp3" type="audio/mpeg">
+</audio>
+<main class="main">
     <div class="main__wrapper" id="main">
         <div class="container">
-            <div class="main__inner" >
-            <div class="logo__main-box">
-                <img src="/img/IMG_5632.PNG" alt="logo" class="logo__main">
-            </div>
-            <div class="main__info">
-                <div class="main__hello">
-                    <div class="main__hello-icon">
-                        <img src="/img/IMG_5640.PNG" alt="" class="main__icon-img">
-                    </div>
-                    <div class="main__hello-title">Здравствуйте</div>
-                    <p class="main__hello-desc">Добро пожаловать на наш сайт, где вы можете получить  уникальный расклад Таро <br> <br>Откройте двери к тайнам и загадкам вашего будущего с помощью наших алгоритмов <br> <br>✨ Дерзайте взглянуть вглубь себя и мира, и откройте новые горизонты с помощью Таро! ✨</p>
+            <div class="main__inner">
+                <div class="logo__main-box">
+                    <img src="/img/IMG_5632.PNG" alt="logo" class="logo__main">
                 </div>
-                <div class="main__circles">
-                    <div class="main__circles1">
-                        <div class="main__circles1-title">карта дня</div>
-                        <a href="index3.html" class="main__circles1-btn">Нажми</a>
+                <div class="main__info">
+                    <div class="main__hello">
+                        <div class="main__hello-icon">
+                            <img src="/img/IMG_5640.PNG" alt="" class="main__icon-img">
+                        </div>
+                        <div class="main__hello-title">Здравствуйте</div>
+                        <p class="main__hello-desc">Добро пожаловать на наш сайт, где вы можете получить  уникальный расклад Таро <br> <br>Откройте двери к тайнам и загадкам вашего будущего с помощью наших алгоритмов <br> <br>✨ Дерзайте взглянуть вглубь себя и мира, и откройте новые горизонты с помощью Таро! ✨</p>
                     </div>
-                    <div class="main__circles2">
-                        <div class="main__circles2-title">Расклад</div>
-                        <ul class="main__circles2-list">
-   
-                            <li class="main__circles2-item">
-                                1. <a href="index7.html" class="main__circles2-link">Да/Нет</a>
-                            </li>
-                
-
-                        </ul>
-                        <div class="main__circles2-box">
-                            <img src="/img/IMG_5638.PNG" alt="decor" class="main__circles2-decor">
+                    <div class="main__circles">
+                        <div class="main__circles1">
+                            <div class="main__circles1-title">карта дня</div>
+                            <a href="index3.html" class="main__circles1-btn">Нажми</a>
+                        </div>
+                        <div class="main__circles2">
+                            <div class="main__circles2-title">Расклад</div>
+                            <ul class="main__circles2-list">
+                                <li class="main__circles2-item">
+                                    1. <a href="index7.html" class="main__circles2-link">Да/Нет</a>
+                                </li>
+                            </ul>
+                            <div class="main__circles2-box">
+                                <img src="/img/IMG_5638.PNG" alt="decor" class="main__circles2-decor">
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
+                    
                 </div>
             </div>
         </div>
-
-        
     </div>
-
-</body>
+</main>
+<div class="wrapper">
+    <div class="header">
+        <div class="header__inner">
+            <img src="/img/IMG_5632.PNG" alt="logo" class="logo">
+            <!-- Добавленная ссылка на страницу ввода даты рождения -->
+            <a href="birthdate.html" class="header__btn">Перейти к вводу даты рождения</a>
+        </div>
+    </div>
+</div>
 <script src="/js/main.js"></script>
-  </main>
+</body>
+</html>
