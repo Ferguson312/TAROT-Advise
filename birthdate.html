@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="/img/IMG_5632.PNG" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Введите дату рождения</title>
+    <title>TAROT Advice</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a href="index2.html" class="dayCard__back">
+        <img src="/img/arrow.PNG" alt="" class="dayCard-arrow">
+        <p class="dayCard__back-head">назад</p>
+    </a>
     <div class="birthdate-container">
-        <h1>Введите дату рождения</h1>
+        <h1>Введите дату рождения:</h1>
         <form id="birthdate-form">
             <input type="date" id="birthdate" name="birthdate" required>
             <button type="submit">Показать карту</button>
         </form>
         <div id="card-result" class="card-result"></div>
     </div>
+    <div class="dayCard-image">
+        <img src="/img/CARDMAIN.png" alt="" class="card_img">
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

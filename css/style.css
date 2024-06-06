@@ -718,41 +718,68 @@
     min-height: 100vh;
     background: #f0f0f0;
     padding: 20px;
+    background-image: url('/img/IMG_5555.PNG'); 
+    background-size: cover;
+    background-position: center;
+
 }
 
 .birthdate-container h1 {
     font-size: 2em;
+    padding: 10px 260px 10px 10px;
+    position: absolute;
+    bottom: 80%;
+    left: 10%;
     margin-bottom: 20px;
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    
 }
 
 #birthdate-form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 #birthdate-form input[type="date"] {
     padding: 10px;
     font-size: 1em;
     margin-bottom: 20px;
+    position: absolute;
+    bottom: 80.2%;
+    left: 35%;
+    font-size: 1.2vw;
+    font-weight: 400;
+    background-color: #ffffff;
 }
 
 #birthdate-form button {
-    padding: 100px 100px;
+    padding: 20px 40px;
     font-size: 1em;
-    background: #6f44c8;
+    background: #000000;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: all 0.3s;
+    border-radius: 15px;
+    bottom: 8%;
+    position: absolute;
+
 }
 
+
+
 #birthdate-form button:hover {
-    background: #5630a1;
+    transform: scale(1.05);
 }
 
 .card-result {
+    
     margin-top: 20px;
     font-size: 1.5em;
     text-align: center;
