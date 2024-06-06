@@ -217,23 +217,23 @@
     text-align: center;
     color: #000;
     padding: 0 0 0 230px;
-    bottom: 650px;
-    left: -23px;
+    bottom: 670px;
+    left: -10px;
 }
 .main__circles2-list {
     padding: 63px 0 17px 158px;
 }
 .main__circles2-item {
     position: relative;
-    font-weight: 300;
-    font-size: 2VW;
-    line-height: 1.5;
+    font-weight: 500;
+    font-size: 2.2VW;
+    line-height: 1.1;
     letter-spacing: 0.01em;
 
     padding: 5px 22px;
     color: #000000;
-    bottom: 170px;
-    left: 65px;
+    bottom: 160px;
+    left: 80px;
     
 }
 .main__circles2-item:hover {
@@ -551,7 +551,7 @@
     max-height: 20%;
     left: 38%;
     position: relative;
-    bottom: 10px;
+    bottom: -60px;
     
 }
 .pyramid__info-title {
@@ -566,7 +566,7 @@
 }
 .pyramid__info-desc {
     font-weight: 700;
-    font-size: 1.16vw;
+    font-size: 1.3vw;
     line-height: 1.5;
     letter-spacing: 0.01em;
     text-align: center;
@@ -653,7 +653,7 @@
     max-height: 20%;
     left: 38%;
     position: relative;
-    bottom: 10px;
+    bottom: -70px;
     
 }
 .threecards__info-title {
@@ -668,7 +668,7 @@
 }
 .threecards__info-desc {
     font-weight: 700;
-    font-size: 1.16vw;
+    font-size: 1.3vw;
     line-height: 1.5;
     letter-spacing: 0.01em;
     text-align: center;
