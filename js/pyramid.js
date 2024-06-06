@@ -27,13 +27,10 @@ document.querySelector('.pyramid__btn').addEventListener('click', showRandomTaro
             var randomNum = Math.floor(Math.random() * mean.length);
 
             cardDesc.textContent = mean[randomNum];
-                
+
             cardImg.src = myPix[numbers[0]];
-            
             cardImg2.src = myPix[numbers[1]];
-     
             cardImg3.src = myPix[numbers[2]];
- 
             cardImg4.src = myPix[numbers[3]];
 
  

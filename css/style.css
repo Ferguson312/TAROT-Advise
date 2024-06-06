@@ -225,14 +225,13 @@
 }
 .main__circles2-item {
     position: relative;
-    font-weight: 400;
-    font-size: 2.7VW;
+    font-weight: 300;
+    font-size: 2VW;
     line-height: 1.5;
     letter-spacing: 0.01em;
-    background: #6f44c8;
-    border-radius: 13px;
+
     padding: 5px 22px;
-    color: #f3f3f3;
+    color: #000000;
     bottom: 170px;
     left: 65px;
     
@@ -606,6 +605,107 @@
     transform: scale(1.05);
 }
 
+/* ---------------------------------------------------------------------------- */
+/* ----------------------------------3 cards----------------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+
+.card7_img {
+    width: 12%;
+    height: 36%;
+    right: 70%;
+    bottom: 38%;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -100px;
+}
+.card8_img {
+    width: 12%;
+    height: 36%;
+    right: 85%;
+    bottom: 38%;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -100px;
+}
+.card9_img {
+    width: 12%;
+    height: 36%;
+    right: 55%;
+    bottom: 38%;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -100px;
+}
+.threecards__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+.threecards__info {
+    width: 600px;
+    border-radius: 100px;
+    background: #fff;
+    box-shadow: -10px 4px 25px 0 rgba(0, 0, 0, 0.25);
+    margin-right: 15%;
+    max-width: 50%;
+    max-height: 20%;
+    left: 38%;
+    position: relative;
+    bottom: 10px;
+    
+}
+.threecards__info-title {
+    font-weight: 700;
+    font-size: 2.2vw;
+    line-height: 1.76;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    padding-top: 50px;
+}
+.threecards__info-desc {
+    font-weight: 700;
+    font-size: 1.16vw;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #4d5053;
+    max-width: auto;
+    padding: 15px 30px 50px;
+}
+.threecards__btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 1%;
+    left: 52%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.threecards__btn{
+    font-weight: 350;
+    font-size: 28px;
+    line-height: 5;
+    letter-spacing: 0.12em;
+    text-align: center;
+    color: #f8f7f7;
+    border-radius: 55px;
+    padding: 35px 50px;
+    width: 280px;
+    height: 23px;
+    background: #080708;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+.threecards__btn:hover{
+    transform: scale(1.05);
+}
 
 /* ---------------------------------------------------------------------------- */
 /* ----------------------------------birthdate----------------------------------- */
