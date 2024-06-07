@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/img/IMG_5632.PNG" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <bgsound src="/music/mus.mp3" loop="-1" balance="10" volume="100">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="shortcut icon" href="/img/IMG_5632.PNG" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TAROT Advice</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <a href="index2.html" class="dayCard__back">
-        <img src="/img/arrow.PNG" alt="" class="dayCard-arrow">
-        <p class="dayCard__back-head">назад</p>
-    </a>
-    <div class="birthdate-container">
-        <h1>Введите дату рождения:</h1>
-        <form id="birthdate-form">
-            <input type="date" id="birthdate" name="birthdate" required>
-            <button type="submit">Показать карту</button>
-        </form>
-        <div id="card-result" class="card-result"></div>
-    </div>
-    <div class="dayCard-image">
-        <img src="/img/CARDMAIN.png" alt="" class="card_img">
-    </div>
     
-    <script src="script.js"></script>
+    <title>TAROT Advice</title>
+  </head>
+<body>
+    <audio loop autoplay>
+        <source src = "/music/mus.mp3" type = "audio/mpeg" autostart="true" hidden="true" loop="true" >
+    </audio>
+    
+<div class="birthdate" id="birthdate">
+    <div class="container">
+        <input type="date" id="birthdate" name="trip-start" min="1900-01-01" max="2024-12-31" class="birthdateform">
+       <div class="birthdate__inner">
+           <div class="birthdate__info" contenteditabl>
+               <div class="birthdate__info-title">#КартаДня</div>
+               <p class="birthdate__info-desc">Нажав на кнопку <br>"Предсказание" <br> вы получите свою карту дня</p>
+           </div>
+           <div class="birthdate-image">
+               <img src="/img/CARDMAIN.png" alt="" class="birthdatecard_img">
+           </div>
+       </div>
+       
+      
+       <div class="birthdate__btn-box">
+           <a href="javascript:void(0)" class="birthdate__btn" onclick="showRandomTarotCard" >предсказание</a>
+       </div>
+       <a href="index2.html" class="birthdate__back">
+           <img src="/img/arrow.PNG" alt="" class="birthdate-arrow">
+           <p class="birthdate__back-head">назад</p>
+       </a>
+    </div>
+</div>
+<script src="/js/script.js"></script>
 </body>
-</html>
