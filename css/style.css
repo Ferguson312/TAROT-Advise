@@ -713,11 +713,11 @@
 
 .birthdateform{
     border-radius: 20px;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: 300;
-    bottom: 70%;
-    left: 45%;
+    padding: 15px;
+    font-size: 23px;
+    font-weight: 400;
+    bottom: 62%;
+    left: 23%;
     position: absolute;
     z-index: 1;
     background-color: #dadada;
@@ -747,6 +747,7 @@
 }
 .birthdate__info {
     width: 600px;
+    padding: 1px 1px 1px 1px;
     border-radius: 100px;
     background: #fff;
     box-shadow: -10px 4px 25px 0 rgba(0, 0, 0, 0.25);
@@ -755,7 +756,7 @@
     max-height: 20%;
     left: -15%;
     position: relative;
-    bottom: 50px;
+    bottom: -20px;
     
 }
 .birthdate__info-title {
@@ -767,6 +768,7 @@
     text-align: center;
     color: #000;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 .birthdate__info-desc {
     font-weight: 700;
@@ -795,7 +797,7 @@
     justify-content: center;
     position: fixed;
     bottom: 1%;
-    left: 73%;
+    left: 92%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
@@ -815,6 +817,8 @@
     align-items: center;
     justify-content: center;
     transition: all 0.3s;
+    left: -320px;
+    position: relative;
 }
 .birthdate__btn:hover{
     transform: scale(1.05);
