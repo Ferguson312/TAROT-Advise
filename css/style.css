@@ -865,6 +865,8 @@
     text-align: left;
     top: 3%;
     position: relative;
+    width: 25%;
+    top: 10%;
 }
 
 .compatibility_text {
@@ -877,7 +879,35 @@
 
 .compatibility_question{
     color: #000;
-    width: 93%;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.compatibility2_box {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: -10px 4px 25px 0 rgba(0, 0, 0, 0.25);
+    height: 37px;
+    text-align: left;
+    top: 3%;
+    position: relative;
+    width: 25%;
+    left: 75%;
+    top: 5%;
+}
+
+.compatibility2_text {
+    position: relative;
+    font-weight: 600;
+    font-size: 14px;
+    color: #4d5053;
+    padding: 30px 10px 5px;
+
+}
+
+.compatibility2_question{
+    color: #000;
+    width: 70%;
 
     margin-top: 10px;
 }
@@ -955,6 +985,9 @@
     max-width: auto;
     padding: 30px 40px 50px;
 }
+
+
+
 .compatibility-image {
 }
 .compatibility_img {
