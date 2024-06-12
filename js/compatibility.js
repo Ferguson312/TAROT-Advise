@@ -126,9 +126,9 @@ function showcompatibility(event) {
 
   if (index > 22) index -= 22;
 
-    switch (randomNumber) {
+    switch (index) {
         case 1:
-            cardImg.src = "/img2/YES.PNG";
+            cardImg.src = "/img/01.png";
             break;
         case 2:
             cardImg.src = '/img2/NO.PNG';
