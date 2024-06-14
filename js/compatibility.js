@@ -22,6 +22,13 @@ function showcompatibility(event) {
     var ind8 = ['ж', 'п', 'ш'];
     var ind9 = ['з', 'р', 'щ'];
 
+    if (questionInput.length < 1 && questionInput2.length < 1)
+      alert("Пожалуйста введите имена");
+    else if (questionInput.length == 1 || questionInput2.length == 1)
+      alert("Имя не может состоять из одной буквы")
+    else 
+    {
+    
     for (let i = 0; i < questionInput.length; i++) {
 
         // Приводим букву к нижнему регистру
@@ -225,7 +232,7 @@ function showcompatibility(event) {
              break;  
 
     }
-    
+  }
 }
 
 document.querySelector('.compatibility__btn').addEventListener('click', showcompatibility);
