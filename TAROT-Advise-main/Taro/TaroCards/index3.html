@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <bgsound src="/music/mus.mp3" loop="-1" balance="10" volume="100">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <title>TAROT Advice</title>
+  </head>
+<body>
+    <audio loop autoplay>
+        <source src = "/music/mus.mp3" type = "audio/mpeg" autostart="true" hidden="true" loop="true" >
+    </audio>
+    
+<div class="dayCard" id="dayCard">
+    <div class="container">
+       <div class="logo__dayCard-box">
+           <img src="/img/IMG_5632.PNG" alt="logo" class="logo__main">
+       </div>
+       <div class="dayCard__inner">
+           <div class="dayCard__info" contenteditabl>
+               <div class="dayCard__info-title">#КартаДня</div>
+               <p class="dayCard__info-desc">Нажав на кнопку <br>"Предсказание" <br> вы получите свою карту дня</p>
+           </div>
+           <div class="dayCard-image">
+               <img src="/img/CARDMAIN.png" alt="" class="card_img">
+           </div>
+       </div>
+       
+      
+       <div class="dayCard__btn-box">
+           <a href="javascript:void(0)" class="dayCard__btn" onclick="showRandomTarotCard" >предсказание</a>
+       </div>
+       <a href="index2.html" class="dayCard__back">
+           <img src="/img/arrow.PNG" alt="" class="dayCard-arrow">
+           <p class="dayCard__back-head">назад</p>
+       </a>
+    </div>
+</div>
+<script src="/js/main.js"></script>
+</body>
